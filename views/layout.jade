@@ -7,17 +7,17 @@ html
     meta(name='description', content='')
     meta(name='csrf-token', content=_csrf)
     meta(name='author', content='')
-    title #{title} | SumNinjaCode
+    title She's Got A Will
     != css('styles')
     link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic')
     link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Montserrat:400,700')
     link(rel='icon', type='image/png', href='ninja.png')
-  body(id="page-top", data-spy="scroll", data-target=".navbar-fixed-top")
+  body
     include partials/navbar
 
     include partials/flash
     block content
 
-    //    include partials/footer
+    //-include partials/footer
 
     != js('application')
