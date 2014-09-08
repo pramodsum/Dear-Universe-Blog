@@ -1,8 +1,81 @@
 footer
-  .container.text-center
-    p.pull-left © 2014 Company, Inc. All Rights Reserved
-    ul.pull-right.list-inline
-      li
-        a(href='https://github.com/sahat/hackathon-starter') GitHub Project
-      li
-        a(href='https://github.com/sahat/hackathon-starter/issues') Issues
+    .row
+        h4 Archive
+        ol.list-unstyled
+            li
+              a(href='#') March 2014
+            li
+              a(href='#') February 2014
+            li
+              a(href='#') January 2014
+            li
+              a(href='#') December 2013
+            li
+              a(href='#') November 2013
+            li
+              a(href='#') October 2013
+            li
+              a(href='#') September 2013
+            li
+              a(href='#') August 2013
+            li
+              a(href='#') July 2013
+            li
+              a(href='#') June 2013
+            li
+              a(href='#') May 2013
+            li
+              a(href='#') Aprilril 2013
+        //.responsive-calendar
+          .controls
+            a.pull-left(data-go='prev')
+              .btn.btn-primary.btn-xs Prev
+            h4
+              span(data-head-year='')
+              span(data-head-month='')
+            a.pull-right(data-go='next')
+              .btn.btn-primary.btn-xs Next
+          hr
+          .day-headers
+            .day.header Mon
+            .day.header Tue
+            .day.header Wed
+            .day.header Thu
+            .day.header Fri
+            .day.header Sat
+            .day.header Sun
+          .days(data-group='days')
+
+
+.sumedha-footer
+    .row.text-center
+        p.copyright Made with&nbsp;
+            span.ion-heart
+            span by&nbsp;
+            a(href="https://linkedin.com/in/pramodsum" data-toggle='modal', data-target='#authorModal') Sumedha Pramod
+            span &nbsp;&#124;&nbsp;
+            a(href='https://github.com/pramodsum/ShesGotAWill/issues').issues Issues
+
+#authorModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='AuthorModalLabel', aria-hidden='true')
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal')
+          span(aria-hidden='true') ×
+          span.sr-only Close
+        h4#myModalLabel.modal-title.text-center Sumedha Pramod
+      .modal-body
+        center
+            ul.list-inline
+              li
+                a.btn-circle.btn-social(href='https://twitter.com/pramodsum')
+                  i.ion-social-twitter.animated
+              li
+                a.btn-circle.btn-social(href='https://linkedin.com/in/pramodsum')
+                  i.ion-social-linkedin.animated
+              li
+                a.btn-circle.btn-social(href='https://github.com/pramodsum')
+                  i.ion-social-github.animated
+              li
+                a.btn-circle.btn-social(href='https://facebook.com/sumedha.pramod')
+                  i.ion-social-facebook.animated
