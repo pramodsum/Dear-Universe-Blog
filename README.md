@@ -1,4 +1,4 @@
-![image](http://raw.github.com/pramodsum/ShesGotAWill/blob/master/Screenshot.png)
+![image](Screenshot.png)
 She's Got A Will
 
 License
