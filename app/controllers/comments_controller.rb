@@ -1,10 +1,9 @@
 class CommentsController < ApplicationController
-
-  http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
+  before_filter :authenticate, :except => [ :index, :show ]
 
   def create
     @post = Post.find(params[:post_id])
-    @comment = @post.comments.create(comment_params)
+    @comment = @post.comments.create!(comment_params)
     redirect_to post_path(@post)
   end
 
@@ -16,6 +15,13 @@ class CommentsController < ApplicationController
   end
 
   private
+
+    def authenticate
+      authenticate_or_request_with_http_basic do |name, password|
+        name == "admin" && password == "secret"
+      end
+    end
+
     def comment_params
       params.require(:comment).permit(:commenter, :body)
     end

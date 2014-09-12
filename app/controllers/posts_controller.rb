@@ -1,7 +1,5 @@
 class PostsController < ApplicationController
-
-  http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
-
+  before_filter :authenticate, :except => [ :index, :show ]
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
   # GET /posts
@@ -65,6 +63,13 @@ class PostsController < ApplicationController
   end
 
   private
+
+    def authenticate
+      authenticate_or_request_with_http_basic do |name, password|
+        name == "admin" && password == "secret"
+      end
+    end
+
     # Use callbacks to share common setup or constraints between actions.
     def set_post
       @post = Post.find(params[:id])
@@ -72,6 +77,6 @@ class PostsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
-      params.require(:post).permit(:title, :text)
+      params.require(:post).permit(:title, :text, :comment)
     end
 end
