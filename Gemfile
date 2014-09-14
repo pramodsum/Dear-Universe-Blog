@@ -15,11 +15,16 @@ gem 'haml-rails'
 gem 'high_voltage'
 gem 'unicorn'
 gem 'unicorn-rails'
+gem 'ionicons-rails'
+gem 'font-awesome-sass', '~> 4.2.0'
+gem 'nifty-generators'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
   gem 'html2haml'
   gem 'quiet_assets'
   gem 'rails_layout'
+  gem 'growlyflash'
+  gem 'growl'
   gem 'guard-rails'
 end

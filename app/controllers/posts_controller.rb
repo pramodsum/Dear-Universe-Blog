@@ -5,7 +5,14 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    @posts = Post.all.order("created_at DESC")
+    @comments = Comment.all.order("created_at DESC")
+
+    respond_to do |format|
+      format.html # index.html.haml
+      format.json { render json: @posts }
+      format.atom
+    end
   end
 
   # GET /posts/1

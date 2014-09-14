@@ -7,9 +7,17 @@
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
+    -#= growlyflash_static_notices
+    = auto_discovery_link_tag(:atom, posts_path(:atom))
   %body
-    %header
-      = render 'layouts/navigation'
-    %main{:role => "main"}
-      = render 'layouts/messages'
-      = yield
+    = render 'layouts/navigation'
+    = render 'layouts/header'
+
+    .container
+      .row
+        .col-sm-8.blog-main
+          = yield
+        .col-sm-3.col-sm-offset-1.blog-sidebar
+          = render 'layouts/sidebar'
+
+    = render 'layouts/footer'

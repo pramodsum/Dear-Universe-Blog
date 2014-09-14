@@ -1,17 +1,5 @@
-.row
-  .panel.panel-default
-    .panel-body
-      .col-xs-3
-        %p.pull-left
-        = comment.commenter
-      .col-xs-9
-        %p
-          %strong
-          = comment.body
-
-    .panel-footer
-      %p.text-right
-        = link_to 'Delete Comment', [comment.post, comment], |
-          method: :delete,                                       |
-          data: { confirm: 'Are you sure?' }
-
+%p
+  %strong
+    = comment.commenter
+  %br
+  = comment.body
