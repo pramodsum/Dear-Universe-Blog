@@ -18,6 +18,7 @@ gem 'unicorn-rails'
 gem 'ionicons-rails'
 gem 'font-awesome-sass', '~> 4.2.0'
 gem 'nifty-generators'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
@@ -28,3 +29,19 @@ group :development do
   gem 'growl'
   gem 'guard-rails'
 end
+
+group :test, :development do
+  gem "rspec-rails", "~> 2.0"
+end
+
+group :test do
+  gem 'capybara'
+end
+
+gem 'protected_attributes'
+gem 'polyamorous',      github: 'activerecord-hackery/polyamorous'  # Require for ActiveAdmin to work with Rails 4.1
+gem 'ransack',          github: 'activerecord-hackery/ransack'      # Require for ActiveAdmin to work with Rails 4.1
+gem 'formtastic'
+gem 'devise'
+
+gem 'activeadmin',      github: 'gregbell/active_admin'             # ActiveAdmin backend framework for Rails administration interface

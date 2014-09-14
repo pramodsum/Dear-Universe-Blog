@@ -154,6 +154,7 @@ p {
     }
 }
 a {
+    text-decoration: none;
     color: rgb(127, 146, 196) !important;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -550,5 +551,5 @@ h6 {
 .commentBtn {
   height: 3.4em;
 //  color: white;
-  background: rgb(232, 229, 130);
+  background: #f2777a;
 }

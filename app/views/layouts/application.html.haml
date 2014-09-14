@@ -1,14 +1,20 @@
-!!!
-%html
+!!! 5
+%html{ :lang => "en"}
   %head
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
-    %title= content_for?(:title) ? yield(:title) : 'Rails Bootstrap'
-    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Rails Bootstrap'}"}
+    %title= content_for?(:title) ? yield(:title) : 'Dear Universe'
+    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Dear Universe'}"}
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
     -#= growlyflash_static_notices
     = auto_discovery_link_tag(:atom, posts_path(:atom))
+    %meta{ :charset => "utf-8" }
+
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "vendor/modernizr"
+    = csrf_meta_tag
+
   %body
     = render 'layouts/navigation'
     = render 'layouts/header'
@@ -21,3 +27,4 @@
           = render 'layouts/sidebar'
 
     = render 'layouts/footer'
+    = javascript_include_tag "application"
