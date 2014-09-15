@@ -297,6 +297,7 @@ body {
       font-family: Sacramento !important;
       font-size: 3em;
       padding-right: 10px;
+      margin-top: 0;
       color: rgb(249, 162, 172);
     }
     p .date {
@@ -316,7 +317,7 @@ body {
     /* absolute center .splash within .splash-container */
     margin: auto;
     position: absolute;
-    top: 200px;
+    top: 125px;
     left: 0;
     right: 0;
     text-align: center;
@@ -555,6 +556,50 @@ h6 {
   height: 3.4em;
 //  color: white;
   background: #f2777a;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+#addComment {
+  .btn {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .btn-default {
+    border: 0 !important;
+    color: black !important;
+    background: none;
+    background-color: pink !important;
+  }
+  .btn-default:hover,
+  .btn-default:focus {
+    border: 1px solid black !important;
+    color: black !important;
+    background-color: pink !important;
+  }
 }
 
 #404-bg {
