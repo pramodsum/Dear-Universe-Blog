@@ -5,8 +5,8 @@
  */
 @font-face {
   font-family: "foundation-icons";
-  src: url(font_path("foundation-icons/foundation-icons.eot"));
-  src: url(font_path("foundation-icons/foundation-icons.eot?#iefix")) format("embedded-opentype"), url(font_path("foundation-icons/foundation-icons.woff")) format("woff"), url(font_path("foundation-icons/foundation-icons.ttf")) format("truetype"), url(font_path("foundation-icons/foundation-icons.svg#fontcustom")) format("svg");
+  src: url(font-url("foundation-icons/foundation-icons.eot"));
+  src: url(font-url("foundation-icons/foundation-icons.eot?#iefix")) format("embedded-opentype"), url(font-url("foundation-icons/foundation-icons.woff")) format("woff"), url(font-url("foundation-icons/foundation-icons.ttf")) format("truetype"), url(font-url("foundation-icons/foundation-icons.svg#fontcustom")) format("svg");
   font-weight: normal;
   font-style: normal; }
 .icon:before {
@@ -871,11 +871,11 @@
 
 @font-face {
     font-family: 'Sacramento';
-    src: url(font_path('sacramento-regular-webfont.eot'));
-    src: url(font_path('sacramento-regular-webfont.eot?#iefix')) format('embedded-opentype'),
-         url(font_path('sacramento-regular-webfont.woff')) format('woff'),
-         url(font_path('sacramento-regular-webfont.ttf')) format('truetype'),
-         url(font_path('sacramento-regular-webfont.svg#sacramentoregular')) format('svg');
+    src: url(font-url('sacramento-regular-webfont.eot'));
+    src: url(font-url('sacramento-regular-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-url('sacramento-regular-webfont.woff')) format('woff'),
+         url(font-url('sacramento-regular-webfont.ttf')) format('truetype'),
+         url(font-url('sacramento-regular-webfont.svg#sacramentoregular')) format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -883,11 +883,11 @@
 
 @font-face {
     font-family: 'Notera';
-    src: url(font_path('onts/notera_personaluseonly-webfont.eot'));
-    src: url(font_path('notera_personaluseonly-webfont.eot?#iefix')) format('embedded-opentype'),
-         url(font_path('notera_personaluseonly-webfont.woff')) format('woff'),
-         url(font_path('notera_personaluseonly-webfont.ttf')) format('truetype'),
-         url(font_path('notera_personaluseonly-webfont.svg#notera_personal_use_onlyRg')) format('svg');
+    src: url(font-url('onts/notera_personaluseonly-webfont.eot'));
+    src: url(font-url('notera_personaluseonly-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-url('notera_personaluseonly-webfont.woff')) format('woff'),
+         url(font-url('notera_personaluseonly-webfont.ttf')) format('truetype'),
+         url(font-url('notera_personaluseonly-webfont.svg#notera_personal_use_onlyRg')) format('svg');
     font-weight: normal;
     font-style: normal;
 
