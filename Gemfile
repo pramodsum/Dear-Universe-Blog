@@ -46,3 +46,5 @@ gem 'formtastic'
 gem 'devise'
 
 gem 'activeadmin',      github: 'gregbell/active_admin'             # ActiveAdmin backend framework for Rails administration interface
+
+gem "figaro"
