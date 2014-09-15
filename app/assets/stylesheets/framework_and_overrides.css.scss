@@ -124,7 +124,7 @@ body {
   width: 100%;
   height: 100%;
   color: black;
-  background: image-url( 'bg.jpg') repeat;
+  background: url(asset-path('bg.jpg')) repeat;
 }
 html {
     width: 100%;
@@ -176,7 +176,7 @@ a:focus {
     padding: 100px 0;
     padding-top: 0;
     text-align: center;
-    background: -webkit-gradient(linear, center center, center bottom, from(rgba(255, 255, 253, 0)), to(rgba(255, 255, 253, 1))), image-url( 'header.jpg') no-repeat top center;
+    background: -webkit-gradient(linear, center center, center bottom, from(rgba(255, 255, 253, 0)), to(rgba(255, 255, 253, 1))), url(asset-path('header.jpg')) no-repeat top center;
     background-size: 100% auto;
 //    margin-top: -10 !important;
 }

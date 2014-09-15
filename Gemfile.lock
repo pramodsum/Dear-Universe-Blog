@@ -105,9 +105,6 @@ GEM
     erubis (2.7.0)
     execjs (2.2.1)
     ffi (1.9.3)
-    figaro (0.7.0)
-      bundler (~> 1.0)
-      rails (>= 3, < 5)
     font-awesome-sass (4.2.0)
       sass (~> 3.2)
     formatador (0.2.5)
@@ -293,7 +290,6 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.0.0)
   devise
-  figaro
   font-awesome-sass (~> 4.2.0)
   formtastic
   growl
