@@ -1,4 +1,9 @@
 <div id="posts">
+  <% if @posts.count == 0 %>
+    <center>
+      <h1>We haven't posted anything yet :(</h1>
+    </center>
+  <% end %>
   <% @posts.each do |post| %>
     <div class="blog-post">
       <h1 class="blog-post-title">
