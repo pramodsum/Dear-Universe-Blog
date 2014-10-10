@@ -5,7 +5,7 @@ atom_feed do |feed|
   @posts.each do |post|
     feed.entry(post) do |entry|
       entry.title post.title
-      entry.content post.text, :type => 'html'
+      entry.content post.body, :type => 'html'
 
       entry.author do |author|
         author.name 'Anagha Bharadwaj'

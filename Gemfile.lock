@@ -110,10 +110,6 @@ GEM
     formatador (0.2.5)
     formtastic (2.3.1)
       actionpack (>= 3.0)
-    growl (1.0.3)
-    growlyflash (0.2.10)
-      coffee-rails (>= 3.2.1)
-      railties (>= 3.2, < 5.0)
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -260,6 +256,8 @@ GEM
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
+    todc-bootstrap-sass (0.0.6)
+      sass (~> 3.2)
     turbolinks (2.3.0)
       coffee-rails
     tzinfo (1.2.2)
@@ -292,8 +290,6 @@ DEPENDENCIES
   devise
   font-awesome-sass (~> 4.2.0)
   formtastic
-  growl
-  growlyflash
   guard-rails
   haml-rails
   high_voltage
@@ -315,6 +311,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spring
   sprockets (= 2.11.0)
+  todc-bootstrap-sass
   turbolinks
   uglifier (>= 1.3.0)
   unicorn

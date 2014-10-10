@@ -1,9 +1,0 @@
-#posts
-  - @posts.each do |post|
-    .blog-post
-      %h1.blog-post-title
-        = link_to_unless_current post.title, post
-      %p.blog-post-meta.small
-        =post.created_at.strftime("%d %b. %Y")
-      = simple_format post.text
-

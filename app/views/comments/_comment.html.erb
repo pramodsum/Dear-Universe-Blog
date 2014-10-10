@@ -1,0 +1,13 @@
+<p>
+  <h3>
+    <strong>
+      <%= comment.commenter %>
+    </strong>
+    <small>
+      Posted
+      <%= time_ago_in_words(comment.created_at) %>
+      ago
+    </small>
+  </h3>
+  <%= comment.body %>
+</p>

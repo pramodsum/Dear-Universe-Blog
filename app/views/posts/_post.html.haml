@@ -1,9 +1,0 @@
-.blog-post
-  %h1.title
-    = link_to_unless_current post.title, post
-  %small
-    %p.date
-      %span.ion-calendar
-      =post.created_at.strftime("%d %b. %Y")
-  = simple_format post.text
-

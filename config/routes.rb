@@ -7,9 +7,9 @@ Rails.application.routes.draw do
     resources :comments
   end
 
-  root to: 'visitors#index'
+  root to: 'posts#index'
 
-  get '/about', :to => 'pages#about'
+  get '/me', :to => 'pages#about'
 
   get '/404', :to => 'errors#not_found'
   get '/500', :to => 'errors#internal_error'

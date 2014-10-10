@@ -26,8 +26,6 @@ group :development do
   gem 'html2haml'
   gem 'quiet_assets'
   gem 'rails_layout'
-  gem 'growlyflash'
-  gem 'growl'
   gem 'guard-rails'
 end
 
@@ -48,3 +46,5 @@ gem 'devise'
 gem 'activeadmin',      github: 'gregbell/active_admin'             # ActiveAdmin backend framework for Rails administration interface
 
 gem 'sprockets', '2.11.0'
+
+gem 'todc-bootstrap-sass'
