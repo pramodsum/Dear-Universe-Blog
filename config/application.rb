@@ -35,5 +35,7 @@ module RailsBootstrap
     config.assets.enabled = true
 
     config.exceptions_app = self.routes
+
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
   end
 end
