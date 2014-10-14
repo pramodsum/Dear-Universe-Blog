@@ -9952,36 +9952,36 @@ pre code {
 }
 
 /* line 10, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_grid.scss */
-.container, main {
+.container, .main {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 /* line 15, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.container:before, main:before, .container:after, main:after {
+.container:before, .main:before, .container:after, .main:after {
   content: " ";
   display: table;
 }
 /* line 19, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.container:after, main:after {
+.container:after, .main:after {
   clear: both;
 }
 @media (min-width: 768px) {
   /* line 10, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_grid.scss */
-  .container, main {
+  .container, .main {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
   /* line 10, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_grid.scss */
-  .container, main {
+  .container, .main {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
   /* line 10, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_grid.scss */
-  .container, main {
+  .container, .main {
     width: 1170px;
   }
 }
@@ -13156,9 +13156,9 @@ tbody.collapse.in {
 }
 
 /* line 109, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
-.container > .navbar-header, main > .navbar-header,
+.container > .navbar-header, .main > .navbar-header,
 .container > .navbar-collapse,
-main > .navbar-collapse,
+.main > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
@@ -13166,9 +13166,9 @@ main > .navbar-collapse,
 }
 @media (min-width: 768px) {
   /* line 109, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
-  .container > .navbar-header, main > .navbar-header,
+  .container > .navbar-header, .main > .navbar-header,
   .container > .navbar-collapse,
-  main > .navbar-collapse,
+  .main > .navbar-collapse,
   .container-fluid > .navbar-header,
   .container-fluid > .navbar-collapse {
     margin-right: 0;
@@ -13233,7 +13233,7 @@ main > .navbar-collapse,
 }
 @media (min-width: 768px) {
   /* line 178, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar > .container .navbar-brand, .navbar > main .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  .navbar > .container .navbar-brand, .navbar > .main .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
@@ -13971,11 +13971,11 @@ a.badge:hover, a.badge:focus {
   border-top-color: #d5d5d5;
 }
 /* line 26, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
-.container .jumbotron, main .jumbotron {
+.container .jumbotron, .main .jumbotron {
   border-radius: 6px;
 }
 /* line 30, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron .container, .jumbotron main {
+.jumbotron .container, .jumbotron .main {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -13985,7 +13985,7 @@ a.badge:hover, a.badge:focus {
     padding-bottom: 48px;
   }
   /* line 38, /Users/pramods/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/_jumbotron.scss */
-  .container .jumbotron, main .jumbotron {
+  .container .jumbotron, .main .jumbotron {
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -21965,32 +21965,31 @@ img {
 }
 
 /* line 42, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
-main {
+.main {
   background-color: #eee;
   padding-bottom: 80px;
   width: 100%;
-  margin-top: 51px;
 }
 
-/* line 49, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 48, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 section {
   margin-top: 20px;
 }
 
-/* line 56, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 55, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 html {
   word-wrap: break-word;
   position: relative;
   min-height: 100%;
 }
 
-/* line 61, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 60, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 body {
   margin: 2em auto;
   /*    max-width: 1000px;*/
 }
 
-/* line 65, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 64, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 footer {
   background: black;
   color: white;
@@ -21999,51 +21998,51 @@ footer {
   padding: 15px;
   line-height: 1.25;
 }
-/* line 73, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 72, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 footer ul {
   margin-bottom: 0;
 }
-/* line 76, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 75, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 footer p {
   margin: 0;
 }
-/* line 80, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 79, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 footer a {
   color: pink;
 }
 
-/* line 84, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 83, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .sumedha-footer {
   width: 100%;
   padding: 0 15px;
   padding-top: 10px;
   color: black;
 }
-/* line 89, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 88, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .sumedha-footer .issues {
   border-left: 1px black;
 }
 
-/* line 95, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 94, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .navbar-nav img {
   width: 30px;
   height: 30px;
   margin: -15px 15px -15px;
 }
 
-/* line 102, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 101, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .alert {
   margin-top: 20px;
 }
 
-/* line 107, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 106, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .thumbnail {
   padding: 0;
   border-radius: 0;
   box-shadow: 0 0 5px #ccc, inset 0 0 0 #000;
 }
 
-/* line 115, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 114, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .fa,
 [class^='ion-'] {
   margin-right: 6px;
@@ -22054,7 +22053,7 @@ footer a {
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-/* line 124, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 123, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 body {
   width: 100%;
   height: 100%;
@@ -22062,13 +22061,13 @@ body {
   background: url("/assets/bg.jpg") repeat;
 }
 
-/* line 130, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 129, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 html {
   width: 100%;
   height: 100%;
 }
 
-/* line 139, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 138, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 h1,
 h2,
 h3,
@@ -22081,7 +22080,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-/* line 145, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 144, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 p {
   margin: 0 0 25px;
   font-size: 16px;
@@ -22089,14 +22088,14 @@ p {
 }
 
 @media (min-width: 767px) {
-  /* line 151, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 150, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   p {
     margin: 0 0 15px;
     font-size: 18px;
     line-height: 1.25;
   }
 }
-/* line 157, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 156, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 a {
   text-decoration: none !important;
   color: #7f92c4 !important;
@@ -22105,7 +22104,7 @@ a {
   transition: all .2s ease-in-out;
 }
 
-/* line 165, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 164, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 a:hover,
 a:focus {
   text-decoration: none;
@@ -22113,66 +22112,64 @@ a:focus {
   color: #d7d98f !important;
 }
 
-/* line 170, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 169, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .light {
   font-weight: 400;
 }
 
-/* line 173, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 172, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .intro {
   display: table;
   width: 100%;
-  height: 300px !important;
-  padding: 100px 0;
-  padding-top: 0;
+  height: 275px !important;
   text-align: center;
   background: -webkit-gradient(linear, center center, center bottom, from(rgba(255, 255, 253, 0)), to(#fffffd)), url("/assets/header.jpg") no-repeat top center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
-/* line 184, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 181, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
   font: 'Sacramento';
 }
 
-/* line 189, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 186, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .intro .intro-body .brand-heading {
   font-size: 40px;
   color: #ffd800;
   text-shadow: 2px 2px 2px #969696;
 }
 
-/* line 194, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 191, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .intro .intro-body .intro-text {
   font-size: 18px;
   color: #fff;
 }
 
 @media (min-width: 767px) {
-  /* line 199, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 196, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   .intro {
     height: 100%;
     padding: 0;
   }
 
-  /* line 203, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 200, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   .intro .intro-body .brand-heading {
     font-size: 100px;
   }
 
-  /* line 206, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 203, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   .intro .intro-body .intro-text {
     font-size: 25px;
   }
 }
-/* line 210, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 207, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .content-section {
   padding-top: 100px;
 }
 
-/* line 213, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 210, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .download-section {
   width: 100%;
   padding: 50px 0;
@@ -22186,23 +22183,23 @@ a:focus {
 }
 
 @media (min-width: 767px) {
-  /* line 225, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 222, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   .content-section {
     padding-top: 250px;
   }
 
-  /* line 228, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 225, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   .download-section {
     padding: 100px 0;
   }
 
-  /* line 231, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 228, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   #map {
     height: 400px;
     margin-top: 250px;
   }
 }
-/* line 236, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 233, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .btn, .submit {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -22212,14 +22209,14 @@ a:focus {
   transition: all .3s ease-in-out;
 }
 
-/* line 244, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 241, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .btn-default {
   border: 0;
   color: black;
   background-color: pink;
 }
 
-/* line 250, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 247, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid black;
@@ -22227,65 +22224,65 @@ a:focus {
   background-color: pink;
 }
 
-/* line 255, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 252, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 ul.banner-social-buttons {
   margin-top: 0;
 }
 
 @media (max-width: 1199px) {
-  /* line 259, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 256, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
 @media (max-width: 767px) {
-  /* line 264, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 261, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
 
-  /* line 269, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+  /* line 266, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
 }
-/* line 273, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 270, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 ::-moz-selection {
   text-shadow: none;
   background: #ffcee4;
   background: rgba(255, 206, 228, 0.2);
 }
 
-/* line 278, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 275, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 ::selection {
   text-shadow: none;
   background: #ffcee4;
   background: rgba(255, 206, 228, 0.2);
 }
 
-/* line 283, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 280, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 img::selection {
   background: 0 0;
 }
 
-/* line 286, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 283, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 img::-moz-selection {
   background: 0 0;
 }
 
-/* line 289, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 286, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 body {
   webkit-tap-highlight-color: rgba(255, 206, 228, 0.2);
 }
 
-/* line 292, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 289, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .blog-post, .blog-main {
   padding: 10px 0;
   font-family: Raleway Dots;
 }
-/* line 296, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 293, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .blog-post .title, .blog-main .title {
   font-family: Sacramento !important;
   font-size: 3em;
@@ -22293,35 +22290,32 @@ body {
   margin-top: 0;
   color: #f9a2ac;
 }
-/* line 303, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 300, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .blog-post p .date, .blog-main p .date {
   color: #fda3ab !important;
   font-family: Raleway Dots;
 }
 
-/* line 308, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 305, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 #posts {
   padding: 0 2em;
 }
 
-/* line 312, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 309, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .tags a {
   padding: 0 2px;
 }
 
-/* line 316, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 313, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .splash {
   /* absolute center .splash within .splash-container */
-  margin: auto;
-  position: absolute;
-  top: 125px;
-  left: 0;
-  right: 0;
-  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 12em;
 }
 
 /* This is the main heading that appears on the blue section */
-/* line 327, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 321, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .splash-head {
   display: inline-block;
   font-size: 5em;
@@ -22334,47 +22328,53 @@ body {
   line-height: 1em;
   background: rgba(255, 255, 255, 0.9);
   font-family: Sacramento;
+  margin-top: 3em;
 }
 
 /* This is the subheading that appears on the blue section */
-/* line 342, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 338, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+.header h1 {
+  margin: 0;
+}
+
+/* line 343, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .splash-subhead {
   color: black;
   letter-spacing: 0.05em;
   opacity: 0.8;
 }
 
-/* line 347, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 348, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .row, section {
   margin: 0 2em !important;
 }
 
-/* line 350, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 351, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .pure-menu.pure-menu-open.pure-menu-fixed {
   border-bottom: 0px;
 }
 
-/* line 354, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 355, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .pure-menu.pure-menu-open,
 .pure-menu.pure-menu-horizontal li .pure-menu-children {
   background: black;
   color: white;
   text-align: center;
 }
-/* line 358, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 359, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .pure-menu.pure-menu-open a, .pure-menu.pure-menu-open .pure-menu-heading,
 .pure-menu.pure-menu-horizontal li .pure-menu-children a,
 .pure-menu.pure-menu-horizontal li .pure-menu-children .pure-menu-heading {
   color: white;
 }
-/* line 365, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 366, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .pure-menu.pure-menu-open a:hover,
 .pure-menu.pure-menu-horizontal li .pure-menu-children a:hover {
   color: black;
   background: pink;
 }
 
-/* line 375, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+/* line 376, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 h1,
 h2,
 h3,
@@ -22384,9 +22384,8 @@ h6 {
   margin: 0 0 15px;
 }
 
-/* line 378, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
-.container, main {
-  padding-top: 50px;
+/* line 379, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
+.container, .main {
   padding-bottom: 50px;
 }
 
