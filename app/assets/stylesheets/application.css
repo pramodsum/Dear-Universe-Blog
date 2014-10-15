@@ -12,8 +12,8 @@
  *
  *= require_self
  *= require fullcalendar
- *= require framework_and_overrides
  *= require purecss
+ *= require framework_and_overrides
  *= require fonts
  *= require header
  *= require footer
