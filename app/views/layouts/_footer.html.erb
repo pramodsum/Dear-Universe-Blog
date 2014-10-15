@@ -1,18 +1,28 @@
 <footer>
   <div class="row">
-    <div class="col-xs-4">
-      <!--- recent posts
-      -->
+    <div class="col-sm-4">
+      <div class="fc-header-title"><h2>Recent Posts</h2></div>
+      <p>
+        <% @recent_posts = Post.order("created_at DESC").limit(3) %>
+        <% if @recent_posts.count == 0 %>
+          <center>
+            <h1>I haven't posted anything yet :(</h1>
+          </center>
+        <% end %>
+        <% @recent_posts.each do |post| %>
+          <%= link_to_unless_current post.title, post %><br>
+        <% end %>
+      </p>
+      <br>
     </div>
-    <div class="col-xs-4">
+    <div class="col-sm-4">
       <!--- follow blog via emai
       -->
       <!--- follow me on twitter
       -->
     </div>
-    <div class="col-xs-4">
-      <!--- calendar
-      -->
+    <div class="col-sm-4">
+      <div id="calendar"></div>
     </div>
   </div>
 </footer>

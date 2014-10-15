@@ -103,6 +103,7 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
+    event-calendar (2.3.3)
     execjs (2.2.1)
     ffi (1.9.3)
     font-awesome-sass (4.2.0)
@@ -110,6 +111,7 @@ GEM
     formatador (0.2.5)
     formtastic (2.3.1)
       actionpack (>= 3.0)
+    fullcalendar-rails (1.6.4.0)
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -288,8 +290,10 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.0.0)
   devise
+  event-calendar
   font-awesome-sass (~> 4.2.0)
   formtastic
+  fullcalendar-rails
   guard-rails
   haml-rails
   high_voltage

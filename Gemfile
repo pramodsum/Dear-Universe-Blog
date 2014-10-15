@@ -47,4 +47,8 @@ gem 'activeadmin',      github: 'gregbell/active_admin'             # ActiveAdmi
 
 gem 'sprockets', '2.11.0'
 
+gem 'event-calendar', :require => 'event_calendar'
+
 gem 'todc-bootstrap-sass'
+
+gem 'fullcalendar-rails'

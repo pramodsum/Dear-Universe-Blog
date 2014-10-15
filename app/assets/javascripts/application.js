@@ -10,7 +10,17 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require fullcalendar
 //= require_tree .
+
+$(document).ready(function() {
+  $(".fc-header").remove();
+  $(".fc-content").remove();
+  $('#calendar').fullCalendar({
+    events: '/posts.json'
+  });
+});
