@@ -10,9 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require_self
  *= require fullcalendar
  *= require framework_and_overrides
- *= require_self
+ *= require purecss
  *= require fonts
  *= require header
  *= require footer
@@ -20,11 +21,3 @@
  *= require btn
  *= require posts
  */
-
-
-/*
-@import url('header.css.scss');
-@import url('footer.css.scss');
-@import url('sidebar.css.scss');
-@import url('btn.css.scss');
-@import url('posts.css.scss');*/

@@ -49,6 +49,7 @@ gem 'sprockets', '2.11.0'
 
 gem 'event-calendar', :require => 'event_calendar'
 
+gem 'purecss-rails'
 gem 'todc-bootstrap-sass'
 
 gem 'fullcalendar-rails'
