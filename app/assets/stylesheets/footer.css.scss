@@ -33,3 +33,16 @@ footer {
         color: pink;
     }
 }
+
+.fc-state-highlight {
+  background: pink;
+}
+
+.fc-event {
+  background: rgb(127, 146, 196);
+  border: none;
+  padding: 2px;
+  .fc-event-time, .fc-event-title {
+    color: white;
+  }
+}

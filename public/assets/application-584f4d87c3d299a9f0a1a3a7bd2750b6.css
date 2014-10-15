@@ -16479,6 +16479,22 @@ footer a {
 .copyright .ion-heart {
   color: pink;
 }
+
+/* line 37, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/footer.css.scss */
+.fc-state-highlight {
+  background: pink;
+}
+
+/* line 41, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/footer.css.scss */
+.fc-event {
+  background: #7f92c4;
+  border: none;
+  padding: 2px;
+}
+/* line 45, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/footer.css.scss */
+.fc-event .fc-event-time, .fc-event .fc-event-title {
+  color: white;
+}
 /* line 2, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/sidebar.css.scss */
 .sidebar-module .sidebar-header {
   font-family: Sacramento;
