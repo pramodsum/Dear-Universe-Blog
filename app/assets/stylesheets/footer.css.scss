@@ -1,0 +1,35 @@
+footer {
+  background: black;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  line-height: 1.25;
+
+  ul {
+      margin-bottom: 0;
+  }
+  p {
+      margin: 0;
+  }
+
+  a {
+    color: pink;
+  }
+}
+.sumedha-footer {
+    width: 100%;
+    padding: 0 15px;
+    padding-top: 10px;
+    color: black;
+    .issues {
+        border-left: 1px black;
+    }
+}
+.copyright {
+    font-size: 14px;
+    margin-top: 6px;
+    .ion-heart {
+        color: pink;
+    }
+}

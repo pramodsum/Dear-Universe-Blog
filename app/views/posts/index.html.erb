@@ -6,7 +6,7 @@
   <% end %>
   <% @posts.each do |post| %>
     <div class="blog-post">
-      <h1 class="blog-post-title">
+      <h1 class="title">
         <%= link_to_unless_current post.title, post %>
       </h1>
       <small>
