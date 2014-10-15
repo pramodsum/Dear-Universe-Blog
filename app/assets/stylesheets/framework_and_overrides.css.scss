@@ -146,8 +146,8 @@ img::-moz-selection {
     padding-bottom: 50px;
 }
 
-@import "header";
-@import "footer";
-@import "sidebar";
-@import "btn";
-@import "posts";
+@import url("header");
+@import url("footer");
+@import url("sidebar");
+@import url("btn");
+@import url("posts");
