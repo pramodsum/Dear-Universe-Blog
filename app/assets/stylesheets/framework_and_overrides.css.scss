@@ -4,7 +4,6 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import 'ionicons';
-@import url('fonts.css');
 @import url('pure-min.css');
 @import url("http://fonts.googleapis.com/css?family=Dosis|Crafty+Girls|Josefin+Sans|Shadows+Into+Light+Two|Raleway+Dots|Montserrat|Indie+Flower|Pacifico");
 
@@ -145,9 +144,3 @@ img::-moz-selection {
 .container {
     padding-bottom: 50px;
 }
-
-@import url('header.css');
-@import url('footer.css');
-@import url('sidebar.css');
-@import url('btn.css');
-@import url('posts.css');
