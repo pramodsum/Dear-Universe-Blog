@@ -2,6 +2,19 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
 
 @font-face {
+    font-family: 'raleway_dots';
+    src: url('ralewaydots-regular-webfont.eot');
+    src: url('ralewaydots-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ralewaydots-regular-webfont.woff2') format('woff2'),
+         url('ralewaydots-regular-webfont.woff') format('woff'),
+         url('ralewaydots-regular-webfont.ttf') format('truetype'),
+         url('ralewaydots-regular-webfont.svg#raleway_dots_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
   font-family: "foundation-icons";
   src: font-url("foundation-icons/foundation-icons.eot");
   src: font-url("foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"), font-url("foundation-icons/foundation-icons.woff") format("woff"), font-url("foundation-icons/foundation-icons.ttf") format("truetype"), font-url("foundation-icons/foundation-icons.svg#fontcustom") format("svg");

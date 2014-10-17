@@ -14850,10 +14850,18 @@ img::-moz-selection {
 
 /* line 147, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/framework_and_overrides.css.scss */
 .about-text p {
-  font-family: 'Raleway Dots', cursive;
+  font-family: raleway_dots;
 }
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+@font-face {
+  font-family: 'raleway_dots';
+  src: url("ralewaydots-regular-webfont.eot");
+  src: url("ralewaydots-regular-webfont.eot?#iefix") format("embedded-opentype"), url("ralewaydots-regular-webfont.woff2") format("woff2"), url("ralewaydots-regular-webfont.woff") format("woff"), url("ralewaydots-regular-webfont.ttf") format("truetype"), url("ralewaydots-regular-webfont.svg#raleway_dots_regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "foundation-icons";
   src: url(/fonts/foundation-icons/foundation-icons.eot);
@@ -14862,7 +14870,7 @@ img::-moz-selection {
   font-style: normal;
 }
 
-/* line 10, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 23, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon:before {
   font-family: "foundation-icons";
   font-style: normal;
@@ -14875,1417 +14883,1417 @@ img::-moz-selection {
   text-decoration: inherit;
 }
 
-/* line 21, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 34, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-address-book:before {
   content: "\f100";
 }
 
-/* line 24, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 37, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-alert:before {
   content: "\f101";
 }
 
-/* line 27, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 40, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-align-center:before {
   content: "\f102";
 }
 
-/* line 30, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 43, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-align-justify:before {
   content: "\f103";
 }
 
-/* line 33, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 46, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-align-left:before {
   content: "\f104";
 }
 
-/* line 36, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 49, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-align-right:before {
   content: "\f105";
 }
 
-/* line 39, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 52, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-anchor:before {
   content: "\f106";
 }
 
-/* line 42, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 55, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-annotate:before {
   content: "\f107";
 }
 
-/* line 45, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 58, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-archive:before {
   content: "\f108";
 }
 
-/* line 48, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 61, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrow-down:before {
   content: "\f109";
 }
 
-/* line 51, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 64, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrow-left:before {
   content: "\f10a";
 }
 
-/* line 54, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 67, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrow-right:before {
   content: "\f10b";
 }
 
-/* line 57, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 70, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrow-up:before {
   content: "\f10c";
 }
 
-/* line 60, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 73, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrows-compress:before {
   content: "\f10d";
 }
 
-/* line 63, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 76, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrows-expand:before {
   content: "\f10e";
 }
 
-/* line 66, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 79, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrows-in:before {
   content: "\f10f";
 }
 
-/* line 69, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 82, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-arrows-out:before {
   content: "\f110";
 }
 
-/* line 72, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 85, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-asl:before {
   content: "\f111";
 }
 
-/* line 75, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 88, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-asterisk:before {
   content: "\f112";
 }
 
-/* line 78, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 91, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-at-sign:before {
   content: "\f113";
 }
 
-/* line 81, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 94, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-background-color:before {
   content: "\f114";
 }
 
-/* line 84, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 97, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-battery-empty:before {
   content: "\f115";
 }
 
-/* line 87, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 100, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-battery-full:before {
   content: "\f116";
 }
 
-/* line 90, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 103, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-battery-half:before {
   content: "\f117";
 }
 
-/* line 93, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 106, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-bitcoin-circle:before {
   content: "\f118";
 }
 
-/* line 96, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 109, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-bitcoin:before {
   content: "\f119";
 }
 
-/* line 99, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 112, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-blind:before {
   content: "\f11a";
 }
 
-/* line 102, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 115, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-bluetooth:before {
   content: "\f11b";
 }
 
-/* line 105, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 118, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-bold:before {
   content: "\f11c";
 }
 
-/* line 108, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 121, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-book-bookmark:before {
   content: "\f11d";
 }
 
-/* line 111, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 124, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-book:before {
   content: "\f11e";
 }
 
-/* line 114, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 127, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-bookmark:before {
   content: "\f11f";
 }
 
-/* line 117, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 130, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-braille:before {
   content: "\f120";
 }
 
-/* line 120, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 133, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-burst-new:before {
   content: "\f121";
 }
 
-/* line 123, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 136, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-burst-sale:before {
   content: "\f122";
 }
 
-/* line 126, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 139, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-burst:before {
   content: "\f123";
 }
 
-/* line 129, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 142, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-calendar:before {
   content: "\f124";
 }
 
-/* line 132, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 145, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-camera:before {
   content: "\f125";
 }
 
-/* line 135, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 148, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-check:before {
   content: "\f126";
 }
 
-/* line 138, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 151, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-checkbox:before {
   content: "\f127";
 }
 
-/* line 141, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 154, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-clipboard-notes:before {
   content: "\f128";
 }
 
-/* line 144, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 157, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-clipboard-pencil:before {
   content: "\f129";
 }
 
-/* line 147, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 160, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-clipboard:before {
   content: "\f12a";
 }
 
-/* line 150, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 163, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-clock:before {
   content: "\f12b";
 }
 
-/* line 153, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 166, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-closed-caption:before {
   content: "\f12c";
 }
 
-/* line 156, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 169, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-cloud:before {
   content: "\f12d";
 }
 
-/* line 159, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 172, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-comment-minus:before {
   content: "\f12e";
 }
 
-/* line 162, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 175, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-comment-quotes:before {
   content: "\f12f";
 }
 
-/* line 165, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 178, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-comment-video:before {
   content: "\f130";
 }
 
-/* line 168, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 181, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-comment:before {
   content: "\f131";
 }
 
-/* line 171, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 184, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-comments:before {
   content: "\f132";
 }
 
-/* line 174, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 187, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-compass:before {
   content: "\f133";
 }
 
-/* line 177, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 190, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-contrast:before {
   content: "\f134";
 }
 
-/* line 180, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 193, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-credit-card:before {
   content: "\f135";
 }
 
-/* line 183, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 196, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-crop:before {
   content: "\f136";
 }
 
-/* line 186, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 199, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-crown:before {
   content: "\f137";
 }
 
-/* line 189, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 202, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-css3:before {
   content: "\f138";
 }
 
-/* line 192, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 205, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-database:before {
   content: "\f139";
 }
 
-/* line 195, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 208, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-die-five:before {
   content: "\f13a";
 }
 
-/* line 198, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 211, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-die-four:before {
   content: "\f13b";
 }
 
-/* line 201, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 214, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-die-one:before {
   content: "\f13c";
 }
 
-/* line 204, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 217, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-die-six:before {
   content: "\f13d";
 }
 
-/* line 207, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 220, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-die-three:before {
   content: "\f13e";
 }
 
-/* line 210, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 223, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-die-two:before {
   content: "\f13f";
 }
 
-/* line 213, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 226, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-dislike:before {
   content: "\f140";
 }
 
-/* line 216, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 229, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-dollar-bill:before {
   content: "\f141";
 }
 
-/* line 219, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 232, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-dollar:before {
   content: "\f142";
 }
 
-/* line 222, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 235, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-download:before {
   content: "\f143";
 }
 
-/* line 225, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 238, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-eject:before {
   content: "\f144";
 }
 
-/* line 228, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 241, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-elevator:before {
   content: "\f145";
 }
 
-/* line 231, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 244, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-euro:before {
   content: "\f146";
 }
 
-/* line 234, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 247, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-eye:before {
   content: "\f147";
 }
 
-/* line 237, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 250, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-fast-forward:before {
   content: "\f148";
 }
 
-/* line 240, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 253, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-female-symbol:before {
   content: "\f149";
 }
 
-/* line 243, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 256, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-female:before {
   content: "\f14a";
 }
 
-/* line 246, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 259, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-filter:before {
   content: "\f14b";
 }
 
-/* line 249, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 262, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-first-aid:before {
   content: "\f14c";
 }
 
-/* line 252, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 265, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-flag:before {
   content: "\f14d";
 }
 
-/* line 255, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 268, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-folder-add:before {
   content: "\f14e";
 }
 
-/* line 258, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 271, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-folder-lock:before {
   content: "\f14f";
 }
 
-/* line 261, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 274, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-folder:before {
   content: "\f150";
 }
 
-/* line 264, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 277, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-foot:before {
   content: "\f151";
 }
 
-/* line 267, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 280, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-foundation:before {
   content: "\f152";
 }
 
-/* line 270, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 283, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-graph-bar:before {
   content: "\f153";
 }
 
-/* line 273, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 286, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-graph-horizontal:before {
   content: "\f154";
 }
 
-/* line 276, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 289, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-graph-pie:before {
   content: "\f155";
 }
 
-/* line 279, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 292, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-graph-trend:before {
   content: "\f156";
 }
 
-/* line 282, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 295, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-guide-dog:before {
   content: "\f157";
 }
 
-/* line 285, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 298, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-hearing-aid:before {
   content: "\f158";
 }
 
-/* line 288, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 301, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-heart:before {
   content: "\f159";
 }
 
-/* line 291, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 304, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-home:before {
   content: "\f15a";
 }
 
-/* line 294, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 307, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-html5:before {
   content: "\f15b";
 }
 
-/* line 297, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 310, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-indent-less:before {
   content: "\f15c";
 }
 
-/* line 300, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 313, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-indent-more:before {
   content: "\f15d";
 }
 
-/* line 303, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 316, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-info:before {
   content: "\f15e";
 }
 
-/* line 306, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 319, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-italic:before {
   content: "\f15f";
 }
 
-/* line 309, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 322, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-key:before {
   content: "\f160";
 }
 
-/* line 312, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 325, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-laptop:before {
   content: "\f161";
 }
 
-/* line 315, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 328, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-layout:before {
   content: "\f162";
 }
 
-/* line 318, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 331, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-lightbulb:before {
   content: "\f163";
 }
 
-/* line 321, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 334, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-like:before {
   content: "\f164";
 }
 
-/* line 324, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 337, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-link:before {
   content: "\f165";
 }
 
-/* line 327, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 340, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-list-bullet:before {
   content: "\f166";
 }
 
-/* line 330, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 343, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-list-number:before {
   content: "\f167";
 }
 
-/* line 333, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 346, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-list-thumbnails:before {
   content: "\f168";
 }
 
-/* line 336, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 349, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-list:before {
   content: "\f169";
 }
 
-/* line 339, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 352, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-lock:before {
   content: "\f16a";
 }
 
-/* line 342, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 355, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-loop:before {
   content: "\f16b";
 }
 
-/* line 345, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 358, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-magnifying-glass:before {
   content: "\f16c";
 }
 
-/* line 348, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 361, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-mail:before {
   content: "\f16d";
 }
 
-/* line 351, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 364, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-male-female:before {
   content: "\f16e";
 }
 
-/* line 354, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 367, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-male-symbol:before {
   content: "\f16f";
 }
 
-/* line 357, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 370, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-male:before {
   content: "\f170";
 }
 
-/* line 360, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 373, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-map:before {
   content: "\f171";
 }
 
-/* line 363, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 376, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-marker:before {
   content: "\f172";
 }
 
-/* line 366, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 379, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-megaphone:before {
   content: "\f173";
 }
 
-/* line 369, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 382, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-microphone:before {
   content: "\f174";
 }
 
-/* line 372, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 385, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-minus-circle:before {
   content: "\f175";
 }
 
-/* line 375, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 388, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-minus:before {
   content: "\f176";
 }
 
-/* line 378, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 391, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-mobile-signal:before {
   content: "\f177";
 }
 
-/* line 381, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 394, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-mobile:before {
   content: "\f178";
 }
 
-/* line 384, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 397, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-monitor:before {
   content: "\f179";
 }
 
-/* line 387, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 400, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-mountains:before {
   content: "\f17a";
 }
 
-/* line 390, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 403, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-music:before {
   content: "\f17b";
 }
 
-/* line 393, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 406, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-next:before {
   content: "\f17c";
 }
 
-/* line 396, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 409, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-no-dogs:before {
   content: "\f17d";
 }
 
-/* line 399, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 412, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-no-smoking:before {
   content: "\f17e";
 }
 
-/* line 402, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 415, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-add:before {
   content: "\f17f";
 }
 
-/* line 405, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 418, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-copy:before {
   content: "\f180";
 }
 
-/* line 408, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 421, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-csv:before {
   content: "\f181";
 }
 
-/* line 411, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 424, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-delete:before {
   content: "\f182";
 }
 
-/* line 414, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 427, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-doc:before {
   content: "\f183";
 }
 
-/* line 417, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 430, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-edit:before {
   content: "\f184";
 }
 
-/* line 420, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 433, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-export-csv:before {
   content: "\f185";
 }
 
-/* line 423, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 436, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-export-doc:before {
   content: "\f186";
 }
 
-/* line 426, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 439, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-export-pdf:before {
   content: "\f187";
 }
 
-/* line 429, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 442, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-export:before {
   content: "\f188";
 }
 
-/* line 432, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 445, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-filled:before {
   content: "\f189";
 }
 
-/* line 435, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 448, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-multiple:before {
   content: "\f18a";
 }
 
-/* line 438, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 451, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-pdf:before {
   content: "\f18b";
 }
 
-/* line 441, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 454, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-remove:before {
   content: "\f18c";
 }
 
-/* line 444, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 457, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page-search:before {
   content: "\f18d";
 }
 
-/* line 447, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 460, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-page:before {
   content: "\f18e";
 }
 
-/* line 450, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 463, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-paint-bucket:before {
   content: "\f18f";
 }
 
-/* line 453, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 466, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-paperclip:before {
   content: "\f190";
 }
 
-/* line 456, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 469, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-pause:before {
   content: "\f191";
 }
 
-/* line 459, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 472, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-paw:before {
   content: "\f192";
 }
 
-/* line 462, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 475, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-paypal:before {
   content: "\f193";
 }
 
-/* line 465, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 478, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-pencil:before {
   content: "\f194";
 }
 
-/* line 468, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 481, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-photo:before {
   content: "\f195";
 }
 
-/* line 471, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 484, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-play-circle:before {
   content: "\f196";
 }
 
-/* line 474, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 487, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-play-video:before {
   content: "\f197";
 }
 
-/* line 477, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 490, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-play:before {
   content: "\f198";
 }
 
-/* line 480, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 493, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-plus:before {
   content: "\f199";
 }
 
-/* line 483, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 496, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-pound:before {
   content: "\f19a";
 }
 
-/* line 486, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 499, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-power:before {
   content: "\f19b";
 }
 
-/* line 489, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 502, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-previous:before {
   content: "\f19c";
 }
 
-/* line 492, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 505, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-price-tag:before {
   content: "\f19d";
 }
 
-/* line 495, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 508, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-pricetag-multiple:before {
   content: "\f19e";
 }
 
-/* line 498, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 511, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-print:before {
   content: "\f19f";
 }
 
-/* line 501, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 514, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-prohibited:before {
   content: "\f1a0";
 }
 
-/* line 504, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 517, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-projection-screen:before {
   content: "\f1a1";
 }
 
-/* line 507, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 520, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-puzzle:before {
   content: "\f1a2";
 }
 
-/* line 510, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 523, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-quote:before {
   content: "\f1a3";
 }
 
-/* line 513, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 526, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-record:before {
   content: "\f1a4";
 }
 
-/* line 516, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 529, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-refresh:before {
   content: "\f1a5";
 }
 
-/* line 519, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 532, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-results-demographics:before {
   content: "\f1a6";
 }
 
-/* line 522, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 535, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-results:before {
   content: "\f1a7";
 }
 
-/* line 525, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 538, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-rewind-ten:before {
   content: "\f1a8";
 }
 
-/* line 528, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 541, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-rewind:before {
   content: "\f1a9";
 }
 
-/* line 531, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 544, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-rss:before {
   content: "\f1aa";
 }
 
-/* line 534, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 547, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-safety-cone:before {
   content: "\f1ab";
 }
 
-/* line 537, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 550, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-save:before {
   content: "\f1ac";
 }
 
-/* line 540, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 553, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-share:before {
   content: "\f1ad";
 }
 
-/* line 543, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 556, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-sheriff-badge:before {
   content: "\f1ae";
 }
 
-/* line 546, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 559, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-shield:before {
   content: "\f1af";
 }
 
-/* line 549, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 562, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-shopping-bag:before {
   content: "\f1b0";
 }
 
-/* line 552, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 565, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-shopping-cart:before {
   content: "\f1b1";
 }
 
-/* line 555, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 568, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-shuffle:before {
   content: "\f1b2";
 }
 
-/* line 558, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 571, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-skull:before {
   content: "\f1b3";
 }
 
-/* line 561, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 574, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-500px:before {
   content: "\f1b4";
 }
 
-/* line 564, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 577, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-adobe:before {
   content: "\f1b5";
 }
 
-/* line 567, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 580, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-amazon:before {
   content: "\f1b6";
 }
 
-/* line 570, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 583, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-android:before {
   content: "\f1b7";
 }
 
-/* line 573, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 586, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-apple:before {
   content: "\f1b8";
 }
 
-/* line 576, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 589, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-behance:before {
   content: "\f1b9";
 }
 
-/* line 579, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 592, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-bing:before {
   content: "\f1ba";
 }
 
-/* line 582, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 595, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-blogger:before {
   content: "\f1bb";
 }
 
-/* line 585, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 598, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-delicious:before {
   content: "\f1bc";
 }
 
-/* line 588, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 601, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-designer-news:before {
   content: "\f1bd";
 }
 
-/* line 591, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 604, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-deviant-art:before {
   content: "\f1be";
 }
 
-/* line 594, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 607, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-digg:before {
   content: "\f1bf";
 }
 
-/* line 597, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 610, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-dribbble:before {
   content: "\f1c0";
 }
 
-/* line 600, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 613, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-drive:before {
   content: "\f1c1";
 }
 
-/* line 603, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 616, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-dropbox:before {
   content: "\f1c2";
 }
 
-/* line 606, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 619, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-evernote:before {
   content: "\f1c3";
 }
 
-/* line 609, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 622, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-facebook:before {
   content: "\f1c4";
 }
 
-/* line 612, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 625, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-flickr:before {
   content: "\f1c5";
 }
 
-/* line 615, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 628, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-forrst:before {
   content: "\f1c6";
 }
 
-/* line 618, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 631, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-foursquare:before {
   content: "\f1c7";
 }
 
-/* line 621, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 634, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-game-center:before {
   content: "\f1c8";
 }
 
-/* line 624, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 637, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-github:before {
   content: "\f1c9";
 }
 
-/* line 627, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 640, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-google-plus:before {
   content: "\f1ca";
 }
 
-/* line 630, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 643, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-hacker-news:before {
   content: "\f1cb";
 }
 
-/* line 633, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 646, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-hi5:before {
   content: "\f1cc";
 }
 
-/* line 636, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 649, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-instagram:before {
   content: "\f1cd";
 }
 
-/* line 639, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 652, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-joomla:before {
   content: "\f1ce";
 }
 
-/* line 642, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 655, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-lastfm:before {
   content: "\f1cf";
 }
 
-/* line 645, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 658, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-linkedin:before {
   content: "\f1d0";
 }
 
-/* line 648, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 661, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-medium:before {
   content: "\f1d1";
 }
 
-/* line 651, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 664, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-myspace:before {
   content: "\f1d2";
 }
 
-/* line 654, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 667, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-orkut:before {
   content: "\f1d3";
 }
 
-/* line 657, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 670, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-path:before {
   content: "\f1d4";
 }
 
-/* line 660, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 673, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-picasa:before {
   content: "\f1d5";
 }
 
-/* line 663, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 676, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-pinterest:before {
   content: "\f1d6";
 }
 
-/* line 666, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 679, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-rdio:before {
   content: "\f1d7";
 }
 
-/* line 669, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 682, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-reddit:before {
   content: "\f1d8";
 }
 
-/* line 672, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 685, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-skillshare:before {
   content: "\f1d9";
 }
 
-/* line 675, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 688, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-skype:before {
   content: "\f1da";
 }
 
-/* line 678, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 691, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-smashing-mag:before {
   content: "\f1db";
 }
 
-/* line 681, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 694, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-snapchat:before {
   content: "\f1dc";
 }
 
-/* line 684, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 697, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-spotify:before {
   content: "\f1dd";
 }
 
-/* line 687, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 700, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-squidoo:before {
   content: "\f1de";
 }
 
-/* line 690, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 703, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-stack-overflow:before {
   content: "\f1df";
 }
 
-/* line 693, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 706, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-steam:before {
   content: "\f1e0";
 }
 
-/* line 696, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 709, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-stumbleupon:before {
   content: "\f1e1";
 }
 
-/* line 699, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 712, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-treehouse:before {
   content: "\f1e2";
 }
 
-/* line 702, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 715, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-tumblr:before {
   content: "\f1e3";
 }
 
-/* line 705, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 718, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-twitter:before {
   content: "\f1e4";
 }
 
-/* line 708, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 721, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-vimeo:before {
   content: "\f1e5";
 }
 
-/* line 711, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 724, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-windows:before {
   content: "\f1e6";
 }
 
-/* line 714, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 727, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-xbox:before {
   content: "\f1e7";
 }
 
-/* line 717, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 730, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-yahoo:before {
   content: "\f1e8";
 }
 
-/* line 720, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 733, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-yelp:before {
   content: "\f1e9";
 }
 
-/* line 723, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 736, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-youtube:before {
   content: "\f1ea";
 }
 
-/* line 726, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 739, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-zerply:before {
   content: "\f1eb";
 }
 
-/* line 729, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 742, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-social-zurb:before {
   content: "\f1ec";
 }
 
-/* line 732, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 745, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-sound:before {
   content: "\f1ed";
 }
 
-/* line 735, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 748, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-star:before {
   content: "\f1ee";
 }
 
-/* line 738, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 751, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-stop:before {
   content: "\f1ef";
 }
 
-/* line 741, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 754, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-strikethrough:before {
   content: "\f1f0";
 }
 
-/* line 744, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 757, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-subscript:before {
   content: "\f1f1";
 }
 
-/* line 747, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 760, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-superscript:before {
   content: "\f1f2";
 }
 
-/* line 750, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 763, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-tablet-landscape:before {
   content: "\f1f3";
 }
 
-/* line 753, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 766, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-tablet-portrait:before {
   content: "\f1f4";
 }
 
-/* line 756, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 769, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-target-two:before {
   content: "\f1f5";
 }
 
-/* line 759, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 772, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-target:before {
   content: "\f1f6";
 }
 
-/* line 762, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 775, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-telephone-accessible:before {
   content: "\f1f7";
 }
 
-/* line 765, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 778, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-telephone:before {
   content: "\f1f8";
 }
 
-/* line 768, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 781, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-text-color:before {
   content: "\f1f9";
 }
 
-/* line 771, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 784, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-thumbnails:before {
   content: "\f1fa";
 }
 
-/* line 774, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 787, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-ticket:before {
   content: "\f1fb";
 }
 
-/* line 777, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 790, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torso-business:before {
   content: "\f1fc";
 }
 
-/* line 780, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 793, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torso-female:before {
   content: "\f1fd";
 }
 
-/* line 783, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 796, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torso:before {
   content: "\f1fe";
 }
 
-/* line 786, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 799, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torsos-all-female:before {
   content: "\f1ff";
 }
 
-/* line 789, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 802, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torsos-all:before {
   content: "\f200";
 }
 
-/* line 792, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 805, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torsos-female-male:before {
   content: "\f201";
 }
 
-/* line 795, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 808, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torsos-male-female:before {
   content: "\f202";
 }
 
-/* line 798, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 811, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-torsos:before {
   content: "\f203";
 }
 
-/* line 801, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 814, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-trash:before {
   content: "\f204";
 }
 
-/* line 804, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 817, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-trees:before {
   content: "\f205";
 }
 
-/* line 807, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 820, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-trophy:before {
   content: "\f206";
 }
 
-/* line 810, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 823, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-underline:before {
   content: "\f207";
 }
 
-/* line 813, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 826, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-universal-access:before {
   content: "\f208";
 }
 
-/* line 816, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 829, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-unlink:before {
   content: "\f209";
 }
 
-/* line 819, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 832, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-unlock:before {
   content: "\f20a";
 }
 
-/* line 822, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 835, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-upload-cloud:before {
   content: "\f20b";
 }
 
-/* line 825, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 838, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-upload:before {
   content: "\f20c";
 }
 
-/* line 828, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 841, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-usb:before {
   content: "\f20d";
 }
 
-/* line 831, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 844, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-video:before {
   content: "\f20e";
 }
 
-/* line 834, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 847, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-volume-none:before {
   content: "\f20f";
 }
 
-/* line 837, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 850, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-volume-strike:before {
   content: "\f210";
 }
 
-/* line 840, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 853, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-volume:before {
   content: "\f211";
 }
 
-/* line 843, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 856, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-web:before {
   content: "\f212";
 }
 
-/* line 846, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 859, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-wheelchair:before {
   content: "\f213";
 }
 
-/* line 849, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 862, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-widget:before {
   content: "\f214";
 }
 
-/* line 852, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 865, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-wrench:before {
   content: "\f215";
 }
 
-/* line 855, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 868, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-x-circle:before {
   content: "\f216";
 }
 
-/* line 858, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 871, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-x:before {
   content: "\f217";
 }
 
-/* line 861, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 874, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-yen:before {
   content: "\f218";
 }
 
-/* line 864, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 877, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-zoom-in:before {
   content: "\f219";
 }
 
-/* line 867, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
+/* line 880, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/fonts.css.scss */
 .icon-zoom-out:before {
   content: "\f21a";
 }
@@ -16740,7 +16748,7 @@ ul.banner-social-buttons {
 /* line 4, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/posts.css.scss */
 .blog-post, .blog-main {
   padding: 10px 0;
-  font-family: Raleway Dots;
+  font-family: raleway_dots;
 }
 /* line 8, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/posts.css.scss */
 .blog-post .title, .blog-main .title {
@@ -16753,7 +16761,7 @@ ul.banner-social-buttons {
 /* line 15, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/posts.css.scss */
 .blog-post p .date, .blog-main p .date {
   color: #fda3ab !important;
-  font-family: Raleway Dots;
+  font-family: raleway_dots;
 }
 
 /* line 20, /Users/pramods/Documents/Box Documents/AnaghaBlog/app/assets/stylesheets/posts.css.scss */
