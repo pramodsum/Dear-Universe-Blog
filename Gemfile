@@ -53,3 +53,5 @@ gem 'purecss-rails'
 gem 'todc-bootstrap-sass'
 
 gem 'fullcalendar-rails'
+
+gem 'newrelic_rpm'
