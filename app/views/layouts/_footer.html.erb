@@ -3,7 +3,7 @@
     <div class="col-sm-4">
       <div class="fc-header-title"><h2>Recent Posts</h2></div>
       <p>
-        <% @recent_posts = Post.order("created_at DESC").limit(3) %>
+        <% @recent_posts = Post.order("created_at DESC").limit(5) %>
         <% @recent_posts.each do |post| %>
           <%= link_to_unless_current post.title, post %><br>
         <% end %>
