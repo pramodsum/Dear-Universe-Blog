@@ -1,13 +1,9 @@
-<p>
-  <h3>
-    <strong>
-      <%= comment.commenter %>
-    </strong>
-    <small>
-      Posted
-      <%= time_ago_in_words(comment.created_at) %>
-      ago
-    </small>
-  </h3>
-  <%= comment.body %>
-</p>
+<div class="comment panel panel-default">
+  <div class="panel-body">
+    <%= comment.body %>
+  </div>
+  <div class="panel-footer">
+    <small class="col-sm-6 text-left"><%= comment.author %></small>
+    <small class="col-sm-6 text-right">Posted <%= time_ago_in_words(comment.created_at) %> ago</small>
+  </div>
+</div>

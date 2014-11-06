@@ -4,7 +4,6 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import 'ionicons';
-@import url("http://fonts.googleapis.com/css?family=Dosis|Crafty+Girls|Josefin+Sans|Shadows+Into+Light+Two|Raleway+Dots|Montserrat|Indie+Flower|Pacifico");
 
 // make all images responsive by default
 img {
@@ -145,5 +144,5 @@ img::-moz-selection {
 }
 
 .about-text p {
-  font-family: raleway_dots;
+  font-family: josefin;
 }

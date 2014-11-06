@@ -55,6 +55,7 @@ ActiveRecord::Schema.define(version: 20141015141123) do
     t.text     "body"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "author"
   end
 
   add_index "comments", ["post_id"], name: "index_comments_on_post_id", using: :btree
