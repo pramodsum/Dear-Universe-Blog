@@ -11,7 +11,7 @@ config = {
     // Configure your URL and mail settings here
     // ### Production
     production: {
-        url: 'http://dearuniverse.com',
+        url: 'http://dearuniverse.me',
         database: {
           client: 'postgres',
           connection: process.env.DATABASE_URL,
