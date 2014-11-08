@@ -32,6 +32,38 @@ $(document).ready(function() {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
 
+  var loadRecentPosts = function(amount, cb) {
+    var rss = $('link[type="application/rss+xml"]').attr('href');
+    $.get(rss, function(data) {
+      var parsed = $.parseXML(data);
+      // Only display the first number of posts (defined by amount)
+      var posts = $(data).find('item').slice(0, amount);
+      var recent = [];
+      // Loop posts
+      for (var i = 0; posts && i < posts.length; i++) {
+        var post = posts.eq(i);
+        recent.push({
+          title: post.find('title').text(),
+          link: post.find('link').text(),
+          date: post.find('pubDate').text()
+        });
+      }
+      cb(recent);
+    });
+  };
+  // Gets called on document ready
+  $(function() {
+    // Display 5 posts
+    loadRecentPosts(5, function(posts) {
+      for (var i = 0; i < posts.length; i++) {
+        var link = "<a href=";
+        $('.fc-header-title').append("<a href=\"" + posts[i].link + "\">"+ posts[i].title +"</a>");
+        // Post is an object with a title, link and date property
+        // Create a wrapper with jQuery and append/insert anywhere
+      }
+    });
+  });
+
   // var app = angular.module('Twitter', ['ngResource', 'ngSanitize']);
 
   // app.controller('TweetList', function($scope, $resource, $timeout) {
