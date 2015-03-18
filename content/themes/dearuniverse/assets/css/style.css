@@ -1,4 +1,4 @@
-// override for the 'Home' navigation link
+/*// override for the 'Home' navigation link*/
 .navbar-brand {
   font-size: inherit;
   }
@@ -119,4 +119,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
 }
