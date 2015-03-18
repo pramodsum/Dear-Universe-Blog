@@ -23,7 +23,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 #posts {
-    padding: 0 2em;
+    padding: 0 1em;
 }
 .tags a {
     padding: 0 2px;
@@ -94,3 +94,27 @@
     color: black !important;
     background-color: pink !important;
   }
+
+  .post .post-header {
+  height: 30px%;
+  width: 100%;
+  background: url("../images/paper-header.png");
+}
+
+.post .post-content {
+  background: white;
+  padding: 0 30px;
+  padding-top: 10px;
+  width: 100%;
+  padding-bottom: 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.post-body {
+  word-wrap: break-word !important;
+}
+
+.post-title {
+  text-transform: uppercase;
+}

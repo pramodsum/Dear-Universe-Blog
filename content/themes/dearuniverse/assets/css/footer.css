@@ -1,3 +1,7 @@
+.pagination {
+  color: white;
+}
+
 footer {
   background: black;
   color: white;
@@ -25,7 +29,7 @@ footer {
     width: 100%;
     padding: 0 15px;
     padding-top: 10px;
-    color: black;
+    color: white;
   }
     .sumedha-footer.issues {
         border-left: 1px black;

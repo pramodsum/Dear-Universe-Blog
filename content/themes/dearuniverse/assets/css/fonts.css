@@ -25,6 +25,13 @@
 }
 
 @font-face {
+  font-family: 'Twinkle-Fairy';
+  src: url('../fonts/Twinkle-Fairy.eot?#iefix') format('embedded-opentype'),  url('../fonts/Twinkle-Fairy.woff') format('woff'), url('../fonts/Twinkle-Fairy.ttf')  format('truetype'), url('../fonts/Twinkle-Fairy.svg#Twinkle-Fairy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "foundation-icons";
   src: font-url("../fonts/foundation-icons/foundation-icons.eot");
   src: font-url("../fonts/foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"), font-url("../fonts/foundation-icons/foundation-icons.woff") format("woff"), font-url("../fonts/foundation-icons/foundation-icons.ttf") format("truetype"), font-url("../fonts/foundation-icons/foundation-icons.svg#fontcustom") format("svg");

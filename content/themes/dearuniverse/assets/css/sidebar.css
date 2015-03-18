@@ -1,8 +1,9 @@
 .sidebar-module .sidebar-header {
   font-family: 'Sacramento', cursive;
-  font-size: 3em;
+  font-size: 2.5rem;
   margin-top: 10px;
 }
 .sidebar-module img {
     max-width: 150px;
+    width: 100%;
 }
