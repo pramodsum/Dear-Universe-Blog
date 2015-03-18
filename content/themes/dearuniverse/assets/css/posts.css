@@ -1,14 +1,18 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.blog-post, 
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.blog-post,
 .blog-main {
     padding: 10px 0;
-    font-family: josefin;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
-.blog-post.title, 
+.blog-post.title,
 .blog-main.title  {
   font-family: 'Sacramento', cursive;
   font-size: 3em;
@@ -16,7 +20,7 @@
   margin-top: 0;
   color: rgb(249, 162, 172);
 }
-.blog-post p .date, 
+.blog-post p .date,
 .blog-main p .date {
   color: rgb(253, 163, 171) !important;
   font-family: 'Josefin Sans', sans-serif;
